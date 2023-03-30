@@ -1,0 +1,111 @@
+body {
+    font-family: sans-serif;
+    background-image: url('/assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+header {
+    max-width: 100%;
+    font-size: 45px;
+    text-align: center;
+
+}
+h1 {
+    margin: 0;
+    padding: 20px;
+    color: black;
+}
+
+
+main {
+    text-align: center;
+
+}
+.dropdownContainer {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    padding-top: 30px;
+    padding-bottom: 150px;
+    box-sizing: border-box;
+
+}
+.dropdown {
+    position: relative;
+}
+
+.dropdown-toggle {
+    width: 150px;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #d2d2d0;
+    border-radius: 3px;
+}
+
+.dropdown-options {
+width: 150px;
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 10px;
+    background-color: #d2d2d0;
+    border: 1px solid #ccc;
+    border-top: none;
+    z-index: 1;
+    display: none;
+    border-radius: 3px;
+}
+
+.dropdown-options.show {
+    width: 150px;
+display: block;
+    text-align: center;
+}
+
+.option {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.option:hover {
+    background-color: #f9f9f9;
+}
+
+.startDateInput {
+  background-color: #e4c1a9;
+}
+.endDateInput {
+    background-color: #e4c1a9;
+}
+.submitButton {
+    background-color: #e4c1a9;
+}
+.blogPostsContainer {
+    display: inline-block;
+    text-align: center;
+}
+.card {
+    background-image: url('/assets/blogbg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    width: 400px;
+    height: 300px;
+    color: white;
+    border-radius: 5px;
+    display: grid;
+    margin: 10px;
+}
+
+.sortAsc {
+    background-color: #e4c1a9;
+}
+.sortDesc {
+    background-color: #e4c1a9;
+}
